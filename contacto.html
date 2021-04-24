@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">  
+  <head>    
+    <title>Búsqueda</title>    
+    <meta charset="UTF-8">
+    <meta name="title" content="Sitio Web">
+    <link rel="shortcut icon" href="favicon.png">  
+    <link href="estilo.css" rel="stylesheet" type="text/css"/>
+  </head>
+
+  <body>    
+    <header>
+    <div class="col-md-4 border">
+            <img src="imagenes/logo.jpg" alt="logo" width="250" height="150">
+        </div>
+        <div class="col-md-6 border">
+            <h1>Sitios y Parcelas</h1>
+        </div>
+    </header>
+
+<div class="sidebar">
+      <a href="index.html">Inicio</a>
+      <a href="buscar.html">Buscar</a>
+      <a class="active" href="contacto.html">Contacto</a>
+      <a href="acerca-de.html">Acerca de</a>
+    </div>
+
+
+<div class="content">
+  <h2>Contacto</h2>
+  <form action="/action_page.php">
+    <label for="nombre">Nombre completo</label>
+    <input type="text" id="nombre" name="nombre" placeholder="Nombre completo">
+
+    <label for="edad">Edad</label>
+    <input type="text" id="edad" name="edad" placeholder="Ej: 26">
+
+    <label for="email">E-mail</label>
+    <input type="text" id="email" name="email" placeholder="Ej: correo@correo.cl">
+
+    <label for="sugerencia">Sugerencia</label>
+    <textarea id="sugerencia" name="sugerencia" placeholder="Escriba algo..." style="height:200px"></textarea>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="form-group"> <!-- boton "buscar" -->
+            <button type="submit" class="btn btn-primary">Enviar</button>
+          </div>
+        </div>
+      <div class="col-md-6">
+        <div class="form-group"> <!-- boton "volver" -->
+          <button type="submit2" class="btn btn-primary">Volver</button>
+        </div>
+      </div>
+    </div>
+    </div>
+  </form>
+</div>
+
+
+    
+    <footer>
+    </footer>
+
+  </body>  
+</html>
