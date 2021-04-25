@@ -4,7 +4,7 @@
     <title>Búsqueda</title>    
     <meta charset="UTF-8">
     <meta name="title" content="Sitio Web">
-    <link rel="shortcut icon" href="favicon.png">  
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link href="estilo.css" rel="stylesheet" type="text/css"/>
   </head>
 
@@ -32,44 +32,50 @@
 
 <div class="content">
   <div class="row">
-    <h2>Contacto</h2>
-      <form action="/action_page.php">
       <div class="col-md-12">
-        <label for="nombre">Nombre completo</label>
-        <input type="text" id="nombre" name="nombre" placeholder="Nombre completo">
+        <h2>Contacto</h2>
       </div>
-
-      <div class="col-md-12">
-      <label for="edad">Edad</label>
-      <input type="text" id="edad" name="edad" placeholder="Ej: 26">
-      </div>
-
-      <div class="col-md-12">
-      <label for="email">E-mail</label>
-      <input type="text" id="email" name="email" placeholder="Ej: correo@correo.cl">
-      </div>
-
-      <div class="col-md-12">
-      <label for="sugerencia">Sugerencia</label>
-      <textarea id="sugerencia" name="sugerencia" placeholder="Escriba algo..." style="height:200px"></textarea>
-      </div>
+  </div>
 
     <div class="container">
-      <div class="row">
-        <div class="col-md-6">
-          <div class="form-group"> <!-- boton "buscar" -->
-            <button type="submit" class="btn btn-primary">Enviar</button>
+      <form action="/action_page.php">
+        <div class="row">
+          <div class="col-md-12">
+            <label for="nombre">Nombre completo</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Nombre completo">
           </div>
-        </div>
-      <div class="col-md-6">
-        <div class="form-group"> <!-- boton "volver" -->
-          <button type="submit2" class="btn btn-primary">Volver</button>
-        </div>
-      </div>
-    </div>
-    </div>
-  </form>
-   </div>
+
+          <div class="col-md-12">
+            <label for="edad">Edad</label>
+            <input type="text" id="edad" name="edad" placeholder="Ej: 26">
+          </div>
+
+          <div class="col-md-12">
+            <label for="email">E-mail</label>
+            <input type="text" id="email" name="email" placeholder="Ej: correo@correo.cl">
+          </div>
+
+          <div class="col-md-12">
+            <label for="sugerencia">Sugerencia</label>
+            <textarea id="sugerencia" name="sugerencia" placeholder="Escriba algo..." style="height:200px"></textarea>
+          </div>
+          
+          <div class="col-md-6">
+            <div class="form-group"> <!-- boton "buscar" -->
+              <button type="submit" class="btn btn-success">Enviar</button>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="form-group"> <!-- boton "volver" -->
+              <button type="submit" class="btn btn-success">Volver</button>
+            </div>
+          </div>
+
+        </div>      
+      </form>
+    </div>    
+  
 </div>
 
 
@@ -77,5 +83,5 @@
     <footer>
     </footer>
 
-  </body>  
+</body>  
 </html>
