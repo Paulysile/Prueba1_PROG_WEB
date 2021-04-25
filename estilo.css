@@ -15,6 +15,12 @@ input[type=text], select, textarea {
   resize: vertical;
 }
 
+/*botones*/
+
+#btn-derecha{
+  float: right;
+}
+
 input[type=submit] {
   background-color: #4CAF50;
   color: white;
