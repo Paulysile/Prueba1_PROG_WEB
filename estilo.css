@@ -1,12 +1,14 @@
-body {font-family: Arial, Helvetica, sans-serif;}
-* {box-sizing: border-box;}
 
+body {font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+background-color: #eecea5;}
+
+/*cuadros texto Contacto*/
 input[type=text], select, textarea {
-  width: 100%;
+  width: 70%;
   padding: 12px;
   border: 1px solid #ccc;
   border-radius: 4px;
-  box-sizing: border-box;
+  box-sizing: auto;
   margin-top: 6px;
   margin-bottom: 16px;
   resize: vertical;
@@ -34,6 +36,7 @@ input[type=submit]:hover {
 /*barra de menu*/
 .sidebar {
   margin: 0;
+
   margin-bottom: 5%;
   padding: 0;
   width: 200px;
@@ -87,6 +90,7 @@ div.content {
     text-align: center;
     float: none;
   }
+
 }
 
 .acercaT{
@@ -100,5 +104,6 @@ div.content {
     text-align: left;
     font-size: xx-large;
     padding:50px 0;
+
 
 }
