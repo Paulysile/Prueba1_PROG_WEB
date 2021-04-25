@@ -226,6 +226,16 @@ div.content {
 
 
 
+    /*imagen resposiva*/
+
+    .responsive {
+      width: 100%;
+      height: auto;
+      margin-top: 5%;
+      margin-bottom: 10%;
+    }
+
+
 
 
 
@@ -239,3 +249,4 @@ div.content {
   .carousel-inner{
    height: 350px;
   }
+
