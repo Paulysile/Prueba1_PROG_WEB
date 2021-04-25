@@ -223,3 +223,19 @@ div.content {
         padding:50px 0;
     
     }
+
+
+
+
+
+
+
+
+    .carousel-inner img {
+      width: 200%;
+      max-height: 350px;
+  }
+  
+  .carousel-inner{
+   height: 350px;
+  }
