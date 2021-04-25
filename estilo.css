@@ -1,12 +1,13 @@
-body {font-family: Arial, Helvetica, sans-serif;}
-* {box-sizing: border-box;}
+body {font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+background-color: #eecea5;}
 
+/*cuadros texto Contacto*/
 input[type=text], select, textarea {
-  width: 100%;
+  width: 70%;
   padding: 12px;
   border: 1px solid #ccc;
   border-radius: 4px;
-  box-sizing: border-box;
+  box-sizing: auto;
   margin-top: 6px;
   margin-bottom: 16px;
   resize: vertical;
@@ -37,7 +38,7 @@ input[type=submit]:hover {
   padding: 0;
   width: 200px;
   background-color: #f1f1f1;
-  position: absolute;
+  position: fixed;
   height: 100%;
   overflow: auto;
 }
@@ -60,17 +61,18 @@ input[type=submit]:hover {
 .sidebar a:hover:not(.active) {
   background-color: #555;
   color: white;
+  border: black;
 }
 
 /* Page content. The value of the margin-left property should match the value of the sidebar's width property */
 div.content {
   margin-left: 200px;
   padding: 1px 16px;
-  height: 1000px;
+  height: auto;
 }
 
 /* On screens that are less than 700px wide, make the sidebar into a topbar */
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 992px) {
   .sidebar {
     width: 100%;
     height: auto;
