@@ -1,7 +1,7 @@
 
 body {font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-<<<<<<< Updated upstream
 background-color: #eecea5;}
+
 
 /*cuadros texto Contacto*/
 input[type=text], select, textarea {
@@ -108,8 +108,7 @@ div.content {
 
 
 }
-=======
-    background-color: #eecea5;}
+   
     
     /*cuadros texto Contacto*/
     input[type=text], select, textarea {
@@ -123,6 +122,7 @@ div.content {
       resize: vertical;
       float: right;
     }
+
 
     input[type=submit] {
       background-color: #4CAF50;
@@ -216,6 +216,4 @@ div.content {
         font-size: xx-large;
         padding:50px 0;
     
-    
     }
->>>>>>> Stashed changes
