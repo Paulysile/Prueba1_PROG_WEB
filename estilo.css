@@ -3,17 +3,7 @@ body {font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 background-color: #eecea5;}
 
 
-/*cuadros texto Contacto*/
-input[type=text], select, textarea {
-  width: 70%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: auto;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  resize: vertical;
-}
+
 
 /*botones*/
 
@@ -212,3 +202,33 @@ div.content {
         font-size: xx-large;
         padding:50px 0;}
     
+
+    }
+
+
+
+    /*imagen resposiva*/
+
+    .responsive {
+      width: 100%;
+      height: auto;
+      margin-top: 5%;
+      margin-bottom: 10%;
+    }
+
+
+
+
+
+
+
+    .carousel-inner img {
+      width: 200%;
+      max-height: 350px;
+  }
+  
+  .carousel-inner{
+   height: 350px;
+  }
+
+
