@@ -117,17 +117,7 @@ div.content {
    
     
     /*cuadros texto Contacto*/
-    input[type=text], select, textarea {
-      width: 70%;
-      padding: 12px;
-      border: 1px solid #ccc;
-      border-radius: 4px;
-      box-sizing: auto;
-      margin-top: 6px;
-      margin-bottom: 16px;
-      resize: vertical;
-      float: right;
-    }
+    
 
 
     input[type=submit] {
@@ -220,6 +210,5 @@ div.content {
     .headT{
         text-align: left;
         font-size: xx-large;
-        padding:50px 0;
+        padding:50px 0;}
     
-    }
